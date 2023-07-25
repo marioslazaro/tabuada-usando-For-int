@@ -5,13 +5,17 @@ public class Main {
 
 
         Scanner scan = new Scanner(System.in);
-        System.out.println("Tabuada: ");
+        System.out.println("Qual valor deseja multiplicar?");
         int tabuada;
+        int valor;
 
         tabuada = scan.nextInt();
-        System.out.println("Tabuada de: ");
+        System.out.println("Ate quanto deseja multiplicar? ");
 
-        for (int i = 0; i <= 10 ; i++) {
+        valor = scan.nextInt();
+        System.out.println();
+
+        for (int i = 0; i <= valor ; i++) {
             System.out.println(tabuada + " x " + i + " = " + (tabuada*i));
 
         }
