@@ -1,6 +1,6 @@
 # Tabuada Usando For Int
 
-Código onde o usuario insere o valor que deseja multiplicar, até quando quiser que essa multiplicação ocorra.
+Código onde o usuario insere o valor que deseja multiplicar, até quando quiser que essa multiplicação ocorra, e o mesmo retornará a tabuada até o valor solicitado.
 
 # Exemplo:
 
